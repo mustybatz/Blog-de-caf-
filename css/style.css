@@ -72,8 +72,14 @@ img {
         display: flex;
         justify-content: space-between;
     }
+    .columnas-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
     .columnas-6 {
         flex: 0 0 calc(50% - 1rem);
+    }
+    .columnas-8 {
+        flex: 0 0 calc(66.6% - 1rem);
     }
 }
 
@@ -232,6 +238,7 @@ img {
 .curso {
     padding-bottom: 3rem;
     border-bottom: solid #e1e1e1;
+    padding-top: 3rem;
 }
 
 .curso:last-of-type {
@@ -244,11 +251,8 @@ img {
     font-size: 2rem;
 }
 
-.curso p span {
-    font-weight: 400;
-}
-
-.descripcion {
+.curso p span,
+.curso p.descripcion {
     font-weight: 400;
 }
 

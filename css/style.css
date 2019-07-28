@@ -71,7 +71,7 @@ img {
     display: block;
     text-align: center;
     padding: 1rem 3rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
     color: white;
     text-decoration: none;
     font-family: 'PT', sans-serif;
@@ -133,6 +133,8 @@ img {
     text-align: center;
     display: block;
     font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -231,4 +233,25 @@ img {
 
 .curso p span {
     font-weight: 400;
+}
+
+
+/** FOOTER **/
+
+.site-footer {
+    background-color: #000000;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.site-footer p {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT', sans-serif;
+    text-align: center;
+}
+
+.site-footer p span {
+    font-weight: 700;
 }

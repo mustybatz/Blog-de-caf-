@@ -332,3 +332,13 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+
+.contenido-entrada {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-entrada {
+    margin-left: 2rem;
+    text-justify: distribute;
+}
